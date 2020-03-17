@@ -24,7 +24,7 @@ export default {
             pagename:"Blog",
             pagedescription:"This page use for display info about blog",
             posts:jsondatapost,
-            totalCount:null,
+   
 
         }
 
@@ -35,11 +35,7 @@ export default {
         BlogPost,
        
     },
-    mounted(){
-        console.log(this.posts)
-        
-        
-    },
+  
     // methods:{
     //     getblogs(){
     //   axios.get('https://my-json-server.typicode.com/Zafermushtaha97/json-serve/posts').then((res) => {
